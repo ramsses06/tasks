@@ -1,0 +1,52 @@
+/* TaskFieldDescription.js */
+.task-description-container {
+  position: relative;
+  padding: 5px;
+}
+.task-description-button {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  padding: 0 !important;
+  opacity: 0;
+}
+.task-description-container:hover .task-description-button {
+  opacity: 1;
+}
+
+/* Task.js */
+.task-card-header {
+  position: relative;
+}
+.task-delete-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0 !important;
+  opacity: 0;
+}
+.task-card-header:hover .task-delete-button {
+  opacity: 1;
+}
+
+/* TaskFieldDuration.js */
+.task-duration-container {
+  position: relative;
+  padding: 5px;
+}
+.task-duration-button {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 15px);
+  width: 30px;
+  height: 30px;
+  padding: 0 !important;
+  opacity: 0;
+}
+.task-duration-container:hover .task-duration-button {
+  opacity: 1;
+}
